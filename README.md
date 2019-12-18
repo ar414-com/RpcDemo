@@ -1,6 +1,6 @@
 #### [教程链接]((https://www.ar414.com))
-1. [【PhpRpc从0到1】1、什么是RPC](https://ar414-com.github.io/PhpRpc/2-1/)
-2. [【PhpRpc从0到1】2、Php Tcp通讯](https://ar414-com.github.io/PhpRpc/2-2/)
+* [【PhpRpc从0到1】1、什么是RPC](https://ar414-com.github.io/PhpRpc/2-1/)
+* [【PhpRpc从0到1】2、Php Tcp通讯](https://ar414-com.github.io/PhpRpc/2-2/)
 
 #### 环境要求
 * 保证 PHP 版本大于等于 7.2
