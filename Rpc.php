@@ -1,13 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: ljx@dotamore.com
+ * User: ar414.com@gmail.com
  * Date: 2019/3/31
  * Time: 22:47
  */
 
 namespace App\Lib;
-
 
 use App\Exception\Base;
 
@@ -181,6 +180,7 @@ class Rpc
             $responseData = serialize($responseData);
             $responseData = Request::pack($responseData);
             $server->send($fd,$responseData);
+
             //判断客户端是否需要长连接
             if(!$request->getIsKeep())
             {
